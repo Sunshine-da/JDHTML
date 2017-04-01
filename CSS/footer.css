@@ -1,0 +1,161 @@
+/*底部开始*/
+.footer {
+	background-color: #EAEAEA;
+}
+.footer .top-footer {
+	height: 102px;
+	line-height: 102px;
+	border-bottom: 1px solid #ccc;
+}
+.footer .top-footer li {
+	float: left;
+	width: 296px;
+}
+.footer .top-footer p {
+	width: 205px;
+	margin: 0 auto;
+	font-size: 18px;
+	color: #444852;
+	position: relative;
+}
+.footer .top-footer b {
+	width: 36px;
+	height: 43px;
+	display: block;
+	float: left;
+	background: url(../img/ico_service.png) no-repeat;
+	text-indent: -2000px;
+	position: absolute;
+	top: 25px;
+}
+.footer .top-footer span {
+	margin-left: 43px;
+}
+.footer .top-footer .fast {
+	background-position: 0 -43px;
+}
+.footer .top-footer .good {
+	background-position: 0 -86px;
+}
+.footer .top-footer .sheng {
+	background-position: 0 -128px;
+}
+.m-footer {
+	height: 198px;
+	border-bottom: 1px solid #ccc;
+	background-color: #EAEAEA;
+}
+.m-footer dl {
+	float: left;
+	width: 195px;
+}
+.m-footer dt {
+	font-size: 14px;
+	font-weight: 700px;
+	color: #444;
+	margin-top: 24px;
+
+}
+.m-footer dd {
+	height: 22px;
+	line-height: 22px; 
+}
+.m-footer .sp {
+	width: 207px;
+	height: 150px;
+	text-align: center;
+	background: url(../img/ico_footer.png) no-repeat;
+}
+.m-footer .sp a {
+	float: right;
+}
+.b-footer {
+	height: 195px;
+	background-color: #EAEAEA;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.b-footer .b-t a {
+	font-size: 14px;
+	color: #666666;
+	margin-left: 5px;
+}
+.b-footer .b-t span {
+	margin-left: 5px;
+}
+.b-footer .b-t p a:hover {
+	color: red;
+}
+.b-footer p {
+	margin-top: 10px;
+}
+.b-footer .b-m-one a {
+	margin-left: 5px;
+}
+.b-footer .b-m-one span {
+	margin-left: 5px;
+}
+.b-footer .b-m-two a {
+	margin-left: 5px;
+}
+.b-footer .b-m-two span {
+	margin-left: 5px;
+}
+.b-footer .b-m-three a {
+	margin-left: 5px;
+}
+.b-footer .b-m-three span {
+	margin-left: 5px;
+}
+.b-footer .b-m-four a {
+	margin-left: 5px;
+}
+.b-footer .b-m-four span {
+	margin-left: 5px;
+}
+.b-footer .b-b {
+	margin-top: 10px;
+}
+.b-footer .b-b .one {
+    width: 104px;
+ 	height: 35px;
+ 	display: inline-block;
+ 	text-align: center;
+ 	background: url(../img/ico_footer.png) no-repeat 0px -150px;
+}
+.b-footer .b-b .two {
+	width: 104px;
+ 	height: 35px;
+ 	display: inline-block;
+ 	text-align: center;
+ 	background: url(../img/ico_footer.png) no-repeat -104px -150px;
+} 
+.b-footer .b-b .three {
+	width: 104px;
+ 	height: 35px;
+ 	display: inline-block;
+ 	text-align: center;
+ 	background: url(../img/ico_footer.png) no-repeat 0px -186px;
+} 
+.b-footer .b-b .four {
+	width: 104px;
+ 	height: 35px;
+ 	display: inline-block;
+ 	text-align: center;
+ 	background: url(../img/ico_footer.png) no-repeat -104px -186px;
+} 
+.b-footer .b-b .five {
+	width: 104px;
+ 	height: 29px;
+ 	display: inline-block;
+ 	text-align: center;
+ 	background: url(../img/ico_footer.png) no-repeat 0px -220px;
+} 
+.b-footer .b-b .six {
+	width: 104px;
+ 	height: 29px;
+ 	display: inline-block;
+ 	text-align: center;
+ 	background: url(../img/ico_footer.png) no-repeat -104px -220px;
+} 

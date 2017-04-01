@@ -1,0 +1,48 @@
+body,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6 {
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #999999;
+	list-style: none;
+}
+
+body {
+	background-color: #F6F6F6;
+}
+
+a {
+	color:#999999;
+	text-decoration: none; 
+}
+a:hover {
+	color: red;
+}
+input,img {
+	border: 0 none;
+	outline-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+.clearfix:after {
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+
+}
+.clearfix {
+	zoom:1;
+}
+.w {
+	width: 1190px;
+	margin: 0 auto;
+}
+i,s {
+	font-style: normal;
+	text-decoration: none;
+}

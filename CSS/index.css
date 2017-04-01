@@ -1,0 +1,572 @@
+/*主体开始*/
+.banner .banner-bag a {
+	width: 100%;
+	height: 480px;
+	display: block;
+	background: url(../img/jd_bg.jpg) no-repeat top center;
+	position: absolute;
+}
+.banner .banner-content {
+	height: 480px;
+	/*目的：提高层级关系*/
+	position: relative;
+	z-index: 3;
+}
+.banner-content .l-banner {
+	float: left;
+	width: 190px;
+	height: 465px;
+	display: block;
+	background-color: #6E6568;
+	padding-top: 15px;
+}
+.banner-content .l-banner li {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 12px;
+}
+.banner-content .l-banner li a {
+	color: #fff;
+	font-size: 14px
+}
+.banner-content .l-banner li{
+	color: #fff;
+	font-size: 14px
+}
+.banner-content .l-banner li:hover {
+	background-color: rgba(0,0,0,.2);
+}
+/*.banner-content .l-banner li:hover a{
+	color: red;
+}
+*/
+.banner-content .m-banner {
+	float: left;
+	margin-left: 10px;
+	width: 790px;
+	height: 480px;
+}
+.m-banner .top-pic {
+	height: 340px;
+	position: relative;
+}
+.m-banner .top-pic .page a {
+	width: 30px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	display: block;
+	background-color: rgba(0,0,0,.2);
+	color: #fff;
+	font-size: 16px;
+	font-family: 宋体;
+}
+.m-banner .top-pic .page a:hover {
+	background-color: rgba(0,0,0,.6);
+}
+.m-banner .top-pic .page .l-page {
+     position: absolute;
+     left: 0;
+     top: 120px;
+}
+.m-banner .top-pic .page .r-page {
+	position: absolute;
+     right: 0;
+     top: 125px;
+}
+.banner-content .r-banner {
+	float: right;
+}
+.top-pic .yuquan {
+
+	width: 182px;
+	height: 20px;
+	background-color: rgba(255,255,255,.1);
+	border-radius: 15px;
+	position: absolute;
+	top: 298px;
+	left: 303px;
+}
+/*.top-pic .yuquan ul {
+	
+}*/
+.top-pic .yuquan li a{
+	float: left;
+	width: 12px;
+	height: 12px;
+	background-color: #fff;
+	border-radius: 22px;
+	margin: 4px 5px;
+}
+.top-pic .yuquan li a:hover {
+	background-color: #DB192A;
+}
+.m-banner .bottom-pic {
+	width: 790px;
+	height: 130px;
+	margin-top: 10px;
+}
+.m-banner .bottom-pic a {
+	margin-left: 3px;
+}
+
+.r-banner {
+	width: 190px;
+	height: 480px;
+	
+	background-color: #fff;
+}
+
+.r-banner .top-login {
+	height: 115px;
+	border-bottom: 1px solid #ccc;
+}
+.top-login .l-top-login {
+	float: left;
+	width: 70px;
+	height: 70px;
+	background: url(../img/no_login.jpg) no-repeat;
+	border-radius: 66px;
+	margin-left: 10px;
+}
+.top-login .r-top-login {
+	float: right;
+	margin-top: 5px;
+}
+.top-login .r-top-login p {
+	margin-top: 5px;
+	font-size: 14px;
+}
+.top-login .r-top-login a {
+	color: #000000;
+	padding: 0 3px;
+}
+.top-login .r-top-login a:hover {
+	color: red;
+}
+.top-login .fulihuiyuan {
+	margin : 7px 10px;
+
+}
+.fulihuiyuan a {
+	width: 70px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+	border: 2px solid #E01222;
+	color: #E01222;
+	margin-left: 5px;
+}
+.fulihuiyuan a:hover {
+	color: white;
+	background-color: red;
+}
+.middle-login {
+	height: 118px;
+}
+.middle-login .mid-top {
+	height: 26px;
+	line-height: 26px;
+	border-bottom: 1px solid #ccc; 
+	margin: 0 10px;
+}
+.mid-top .top-left {
+	float: left;
+	color: #333333;
+	margin: 0 8px;
+}
+.mid-top .line {
+	float: left;
+	width: 1px;
+	height: 17px;
+	background-color: #ccc;
+	margin-top: 5px;
+}
+.mid-top .top-middle {
+	float: left;
+	color: #333333;
+	margin: 0 8px;
+} 
+.mid-top .top-right {
+	float: right;
+}
+.mid-btm p {
+	margin-left: 15px;
+}
+.mid-btm {
+	padding-top: 15px;
+}
+.bottom-login {
+	height: 208px;
+	overflow: hidden;
+
+}
+.bottom-login li {
+	width: 47px;
+	height: 69px;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	float: left;
+	position: relative;
+}
+.bottom-login li a {
+	width: 47px;
+	height: 24px;
+	display: block;
+	text-align: center;
+	padding-top: 45px;
+	position: relative;
+}
+.bottom-login li i {
+	width: 24px;
+	height: 24px;
+	display: block;
+	background: url(../img/sprite_fs@1x.png) no-repeat -2px -88px;
+	position: absolute;
+	top:15px;
+	left: 12px;
+}
+.bottom-login li .air {
+	width: 23px;
+	height: 20px;
+	display: block;
+	background: url(../img/sprite_fs@1x.png) no-repeat 0 -46px;
+	position: absolute;
+	top:15px;
+	left: 12px;
+} 
+.bottom-login li .movie{
+	width: 25px;
+	height: 20px;
+	display: block;
+	background: url(../img/sprite_fs@1x.png) no-repeat -43px -46px;
+	position: absolute;
+	top:15px;
+	left: 12px;
+}
+.bottom-login li .game{
+	width: 26px;
+	height: 19px;
+	display: block;
+	background: url(../img/sprite_fs@1x.png) no-repeat -87px 0;
+	position: absolute;
+	top:15px;
+	left: 12px;
+}
+.bottom-login li .qiye{
+	width: 26px;
+	height: 20px;
+	display: block;
+	background: url(../img/sprite_fs@1x.png) no-repeat -87px -46px;
+	position: absolute;
+	top:15px;
+	left: 12px;
+}
+.bottom-login li .oil{
+	width: 23px;
+	height: 25px;
+	display: block;
+	background: url(../img/sprite_fs@1x.png) no-repeat;
+	position: absolute;
+	top:15px;
+	left: 12px;
+}
+.bottom-login li .hotel{
+	width: 25px;
+	height: 23px;
+	display: block;
+	background: url(../img/sprite_fs@1x.png) no-repeat -43px -89px;
+	position: absolute;
+	top:15px;
+	left: 12px;
+}
+.bottom-login li .train{
+	width: 26px;
+	height: 23px;
+	display: block;
+	background: url(../img/sprite_fs@1x.png) no-repeat -87px -89px;
+	position: absolute;
+	top:15px;
+	left: 12px;
+}
+.bottom-login li .special {
+	width: 15px;
+	height: 22px;
+	background: url(../img/sprite_index@1x.png) no-repeat -112px -56px;
+	position: absolute;
+	top:0;
+	left:0;
+	color: white;
+	font-style: normal;
+}
+.bottom-login li .money{
+	width: 24px;
+	height: 25px;
+	display: block;
+	background: url(../img/sprite_fs@1x.png) no-repeat -132px 0;
+	position: absolute;
+	top:15px;
+	left: 12px;
+}
+.bottom-login li .licai{
+	width: 24px;
+	height: 26px;
+	display: block;
+	background: url(../img/sprite_fs@1x.png) no-repeat -132px -40px;
+	position: absolute;
+	top:15px;
+	left: 12px;
+}
+.bottom-login li .gift{
+	width: 23px;
+	height: 23px;
+	display: block;
+	background: url(../img/sprite_fs@1x.png) no-repeat -132px -89px;
+	position: absolute;
+	top:15px;
+	left: 12px;
+}
+.bottom-login li .baitiao{
+	width: 25px;
+	height: 25px;
+	display: block;
+	background: url(../img/sprite_fs@1x.png) no-repeat -43px 0;
+	position: absolute;
+	top:15px;
+	left: 12px;
+}
+.bottom-login ul {
+	width: 200px;
+}
+.bottom-last {
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	background-color: #60575A;
+	position: relative;
+}
+.bottom-last i{
+	width: 12px;
+	height: 18px;
+	background: url(../img/sprite_fs@1x.png) no-repeat -2px -130px;
+	position: absolute;
+	top:9px;
+	left:55px;
+}
+/*京东秒杀*/
+.seckill {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.seckill .sec-title {
+	height: 55px;
+	line-height: 55px;
+	background: url(../img/seckill_hd.png) no-repeat;
+	padding: 0 30px;
+	overflow: hidden;
+	position: relative;
+}
+.seckill .sec-title .sj {
+	width: 27px;
+	height:27px ;
+	display: block;
+	background: url(../img/sprite_index@1x.png) no-repeat -191px -48px;
+	position: absolute;
+	top: -3px;
+	left: -3px;
+}
+.l-title {
+	float :left;
+	position: relative;
+}
+.l-title .clock {
+	width: 34px;
+	height: 40px;
+	display: block;
+	background: url(../img/sprite_index@1x.png) no-repeat 0 -40px;
+	position: absolute;
+	top: 8px;
+}
+.l-title span {
+	margin-left: 43px;
+	color: white;
+	font-size: 20px;
+}
+.l-title a {
+	color: white;
+	font-size: 14px;
+	position: relative;
+	margin-left: 15px;
+}
+.l-title a i {
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/sprite_index@1x.png) no-repeat -154px -40px;
+	position: absolute;
+	top: 2px;
+	right:-18px; 
+}
+.r-title {
+	float: right;
+}
+.r-title div {
+	float: left;
+}
+.r-l-title {
+	float: left;
+	color: #fff;
+}
+.r-m-title {
+	float: left;
+	margin: 10px 5px;
+}
+.r-m-title div {
+	float: left;
+}
+.r-r-title {
+	float: left;
+	color: #fff;
+}
+.hour {
+	width: 35px;
+	height: 37px;
+	line-height: 37px;
+	background-color: #440106;
+	text-align: center;
+	color: #F90013;
+	font-size: 16px;
+	margin: 0px 5px;
+	border-radius: 5px;
+}
+.r-m-title .maohao i {
+	width: 4px;
+	height: 4px;
+	display: block;
+	border-radius: 5px;
+	background-color: #440106;
+	margin-top: 9px;
+	margin-bottom: 9px;
+}
+.minute {
+	width: 35px;
+	height: 37px;
+	line-height: 37px;
+	background-color: #440106;
+	text-align: center;
+	color: #F90013;
+	font-size: 16px;
+	margin: 0px 5px;
+	border-radius: 5px;
+}
+.second {
+	width: 35px;
+	height: 37px;
+	line-height: 37px;
+	background-color: #440106;
+	text-align: center;
+	color: #F90013;
+	font-size: 16px;
+	margin: 0px 5px;
+	border-radius: 5px;
+}
+.seckill-list {
+	height: 240px;
+	margin-top: 12px;
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+.l-l-one {
+	width: 199px;
+	height: 240px;
+	border-right: 1px solid #ccc;
+	float: left;
+}
+.l-l-two {
+	width: 199px;
+	height: 240px;
+	border-right: 1px solid #ccc;
+	float: left;
+}
+.l-l-three {
+	width: 199px;
+	height: 240px;
+	border-right: 1px solid #ccc;
+	float: left;
+}
+.l-l-four {
+	width: 199px;
+	height: 240px;
+	border-right: 1px solid #ccc;
+	float: left;
+}
+.l-l-five {
+	width: 199px;
+	height: 240px;
+	float: left;
+}
+.l-list img {
+	display: block;
+	margin:15px 30px; 
+}
+.l-list .shadow {
+	width: 120px;
+	height: 8px;
+	display: block;
+	background: url(../img/sprite_index@1x.png) no-repeat -29px -13px;
+	margin-left: 26px;
+	margin-bottom: 5px;
+}
+.l-list span {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.l-list a p:hover {
+	color: red;
+}
+.l-l-one s {
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	width: 30px;
+	height: 40px;
+	background: url(../img/sprite_index@1x.png) no-repeat -54px -40px;
+	position: absolute;
+	top: 0;
+	left: 15px;
+}
+.l-l-two s {
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	width: 30px;
+	height: 40px;
+	background: url(../img/sprite_index@1x.png) no-repeat -54px -40px;
+	position: absolute;
+	top: 0;
+	left: 211px;
+}
+.l-l-three s {
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	width: 30px;
+	height: 40px;
+	background: url(../img/sprite_index@1x.png) no-repeat -54px -40px;
+	position: absolute;
+	top: 0;
+	left: 412px;
+}
+.l-l-four s {
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	width: 30px;
+	height: 40px;
+	background: url(../img/sprite_index@1x.png) no-repeat -54px -40px;
+	position: absolute;
+	top: 0;
+	left: 612px;
+}
